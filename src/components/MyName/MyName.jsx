@@ -1,4 +1,4 @@
-import './MyName.css'
+import './myName.css'
 
 export function MyName() {
   return <h2>Меня зовут Роман!</h2>
