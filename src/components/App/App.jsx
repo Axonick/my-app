@@ -1,17 +1,22 @@
+import Header from '../Header/Header.jsx'
+import HomePage from '../../pages/HomePage.jsx'
+import { Footer } from '../Footer/Footer.jsx'
+import Counter from '../Counter.jsx'
+import UserProfile from '../UserProfile.jsx'
+import ParentComponent from '../ParentComponent.jsx'
 import './App.css'
-import { MyName } from '../MyName/MyName.jsx'
 
 function App() {
 
-
   return (
-    <>
-      <div>
-        <h1>Привет React!</h1>
-        <p>Это мой первый React-проект с Vite.</p>
-        <MyName />
-      </div>
-    </>
+    <main className='app'>
+      <Header />
+      <HomePage />
+      <Counter />
+      <UserProfile />
+      <ParentComponent />
+      <Footer />
+    </main>
   )
 }
 
